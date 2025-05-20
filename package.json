@@ -1,0 +1,18 @@
+{
+  "name": "projeto-back-end",
+  "version": "1.0.0",
+  "description": "- [Aula 1](doc/aula-1.md) - [Aula 2](doc/aula-2.md)",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
+}
