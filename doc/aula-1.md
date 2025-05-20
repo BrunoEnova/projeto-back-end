@@ -2,25 +2,23 @@
 
 ## Programaçao Orgânica e Impressora 3D
 
-
-
-
 💡 Tema: Programação Orgânica vs Impressão 3D
 🎯 Objetivo:
 Compreender as diferenças fundamentais entre a programação orgânica (ou design/computação orgânica) e a impressão 3D, suas aplicações, vantagens, limitações e contextos de uso.
 
 Metáfora: Do Muro à Célula – Uma Visão Orgânica do Desenvolvimento
+
 1. O Problema do “Muro”
-Hoje, quando uma equipe de tecnologia tenta se comunicar com a área de negócios (e vice-versa), muitas vezes parece que existe um muro gigante entre os dois.
-De um lado, temos pessoas falando de código, servidores, dados.
-Do outro, pessoas falando de clientes, resultados, indicadores.
+   Hoje, quando uma equipe de tecnologia tenta se comunicar com a área de negócios (e vice-versa), muitas vezes parece que existe um muro gigante entre os dois.
+   De um lado, temos pessoas falando de código, servidores, dados.
+   Do outro, pessoas falando de clientes, resultados, indicadores.
 
 🔒 Ninguém enxerga claramente o que está do outro lado.
 Esse muro gera frustração, retrabalho, perda de foco e até abandono de projetos.
 
 2. A Solução: Trabalhar de Forma Orgânica
-Em vez de agir como uma máquina linear (onde cada parte faz apenas sua função sem saber o todo), podemos nos inspirar na biologia:
-👉 Células que se comunicam, se multiplicam e formam organismos vivos.
+   Em vez de agir como uma máquina linear (onde cada parte faz apenas sua função sem saber o todo), podemos nos inspirar na biologia:
+   👉 Células que se comunicam, se multiplicam e formam organismos vivos.
 
 Ou seja:
 
@@ -33,7 +31,7 @@ A inteligência é distribuída
 A evolução do projeto é gradual, viva e adaptável
 
 3. Por que isso funciona para o cérebro humano
-Essa forma de trabalho se conecta com nossa natureza biológica. Quando colaboramos de forma fluida, integrada, orgânica:
+   Essa forma de trabalho se conecta com nossa natureza biológica. Quando colaboramos de forma fluida, integrada, orgânica:
 
 Nosso cérebro entende o propósito
 
@@ -48,7 +46,7 @@ A chance de desistência diminui
 📈 Ou seja: um modelo de trabalho mais natural também é mais saudável mentalmente — e mais produtivo.
 
 4. Como isso ajuda a área de negócios
-Negócios não falam código. Mas eles falam métricas, resultados e impacto.
+   Negócios não falam código. Mas eles falam métricas, resultados e impacto.
 
 Quando trabalhamos de forma orgânica e integrada:
 
@@ -61,12 +59,11 @@ A ponte entre tecnologia e negócio é construída de dentro para fora, como um 
 🧩 Exemplo: em vez de dizer "estamos refatorando o backend", dizemos "estamos melhorando a estabilidade para evitar falhas que geram perda de vendas".
 
 5. Resumo da ideia para fechar com força
-“Quando deixamos de trabalhar como uma linha de produção e começamos a agir como um organismo vivo, tudo muda:
-As equipes se conectam, os resultados aparecem com mais clareza, o cérebro se motiva naturalmente, e o negócio entende e participa.
-É sair do conflito e entrar na colaboração real.”
+   “Quando deixamos de trabalhar como uma linha de produção e começamos a agir como um organismo vivo, tudo muda:
+   As equipes se conectam, os resultados aparecem com mais clareza, o cérebro se motiva naturalmente, e o negócio entende e participa.
+   É sair do conflito e entrar na colaboração real.”
 
 ## Programaçao Orgânica e Impressora 3D
-
 
 ## Moral, História: "Tesouros e Lixos"
 
