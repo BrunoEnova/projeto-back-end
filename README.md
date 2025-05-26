@@ -1,4 +1,4 @@
-# Projeto BACK-END Auas
+# Projeto BACK-END Aulas
 
 - [Aula 1](doc/aula-1.md)
 - [Aula 2](doc/aula-2.md)
