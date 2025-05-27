@@ -1,9 +1,5 @@
 // @ts-check
-const caculadora = {
-  somar: function (valor1, valor2) {
-    return valor1 + valor2;
-  },
-};
+const caculadora = require("../models/calculadora");
 
 test("Somar 2 + 2 deveria retornar 4", function () {
   const resultado = caculadora.somar(2, 2);
