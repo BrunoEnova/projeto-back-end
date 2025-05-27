@@ -8,11 +8,15 @@
   },
   "scripts": {
     "lint:check": "prettier --check .",
-    "lint:fix": "prettier --write ."
+    "lint:fix": "prettier --write .",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^30.0.0-beta.3",
     "prettier": "^3.5.3"
   }
 }
