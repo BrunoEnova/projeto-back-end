@@ -4,7 +4,57 @@ const terminal = readfile.createInterface({
   output: process.stdout,
 });
 
-terminal.question("Qual seu nome: \n", function (valor) {
-  console.log("Seja bem vindo " + valor);
-});
-git add . && git commit -m "ok" && git push  
+function question(pergunta) {
+  const promessa = new Promise(function (resolve, reject) {
+    terminal.question(pergunta, function (valor) {
+      resolve(valor);
+    });
+  });
+  return promessa;
+}
+
+question("Qual seu nome? \n")
+  .then(function (nome) {
+    console.log("Nome: " + nome);
+  })
+  .catch(function (error) {
+    console.log("Deu error " + error);
+  })
+  .finally(function () {
+    terminal.close();
+  });
+
+// terminal.question("Qual seu nome ?\n", function (nome) {
+//   console.log("Nome: " + nome);
+//   terminal.close();
+// });
+
+// const promessa = new Promise(function (resolve, reject) {
+//   resolve("Sucesso");
+// });
+
+// promessa
+//   .then(function (resultado) {
+//     console.log("bloco de sucesso", resultado);
+//   })
+//   .catch(function (e) {
+//     console.log("bloco de error ", e);
+//   })
+//   .finally(function () {
+//     console.log("Finalizou");
+//   });
+
+// function question(pergunta) {
+//   return new Promise(function (resolve, reject) {
+//     terminal.question(pergunta + "\n", function (valor) {
+//       resolve(valor);
+//     });
+//   });
+// }
+// question("Qual seu nome")
+//   .then(function (valor) {
+//     console.log(`Seja bem vindo ${valor}`);
+//   })
+//   .finally(function () {
+//     terminal.close();
+//   });
