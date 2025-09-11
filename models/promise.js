@@ -4,6 +4,19 @@ const terminal = readfile.createInterface({
   output: process.stdout,
 });
 
+
+async function test()  {
+  try{
+    const valor = await question()
+  }catch(e){
+
+  }finally{
+    
+  }
+
+}
+
+
 function question(pergunta) {
   const promessa = new Promise(function (resolve, reject) {
     terminal.question(pergunta, function (valor) {

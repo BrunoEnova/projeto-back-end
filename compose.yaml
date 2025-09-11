@@ -1,0 +1,28 @@
+services:
+  db:
+    image: postgres:9.5.25
+    container_name: db
+    environment:
+      - POSTGRES_PASSWORD=1324
+      - POSTGRES_USER=tulio
+      - POSTGRES_DB=maisleitura
+    volumes:
+      - db_data:/var/lib/postgresql/data
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: pgadmin
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=email@email.com
+      - PGADMIN_DEFAULT_PASSWORD=123456@M
+    ports:
+      - 9000:80
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    depends_on:
+      - db
+
+volumes:
+  db_data:
+    driver: local
+  pgadmin_data:
+    driver: local
