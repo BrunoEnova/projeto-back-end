@@ -6,6 +6,10 @@ As variáveis de ambiente são valores de configuração que podem ser acessados
 
 São valores que forneceo para o contexto da execuacao do programa.
 
+Uma aplicação stateless (sem estado) é aquela que não guarda informações sobre o estado.
+
+As configurações hardcoded (ou seja, codificadas diretamente no código-fonte), a flexibilidade de mudar entre ambientes (desenvolvimento, produção, teste, etc.) fica muito limitada. Você seria forçado a alterar o código sempre que fosse necessário trocar de ambiente, o que não é uma prática recomendada por vários motivos.
+
 Exemplos de variáveis de ambiente:
 
 Chaves de API: API_KEY=abcdef123456
