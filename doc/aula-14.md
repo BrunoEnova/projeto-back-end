@@ -40,3 +40,7 @@ Criar scripts no package json
 
 }
 ```
+
+O timestamp UNIX (ou Unix timestamp) é uma forma de representar o tempo como um número inteiro, contando o número de segundos que se passaram desde a meia-noite de 1º de janeiro de 1970 (em UTC), o chamado Epoch Time.
+
+Em termos simples, ele é um contador de segundos que começou nessa data, e é usado para padronizar o tempo em sistemas computacionais.
