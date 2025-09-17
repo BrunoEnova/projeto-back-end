@@ -10,7 +10,9 @@
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "service:up": "docker compose up -d",
+    "service:down": "docker compose down"
   },
   "author": "",
   "license": "ISC",
@@ -18,5 +20,8 @@
     "@types/jest": "^29.5.14",
     "jest": "^30.0.4",
     "prettier": "^3.5.3"
+  },
+  "dependencies": {
+    "pg": "^8.16.3"
   }
 }
