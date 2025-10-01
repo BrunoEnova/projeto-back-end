@@ -2,11 +2,11 @@ const { Client } = require("pg");
 
 async function query(sql, args = []) {
   const client = new Client({
-    host: "localhost",
-    port: 5432,
-    user: "tulio",
-    database: "maisleitura",
-    password: "1324",
+    host: process.env.DB_HOST,
+    port: process.env.DB_PORT,
+    user: process.env.DB_USER,
+    database: process.env.DB_NAME,
+    password: process.env.DB_PASS,
   });
   await client.connect();
 
