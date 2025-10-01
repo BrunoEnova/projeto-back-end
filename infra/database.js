@@ -4,8 +4,9 @@ async function query(sql, args = []) {
   const client = new Client({
     host: "localhost",
     port: 5432,
-    user: "",
-    password: "",
+    user: "tulio",
+    database: "maisleitura",
+    password: "1324",
   });
   await client.connect();
 
@@ -14,3 +15,5 @@ async function query(sql, args = []) {
   await client.end();
   return res.rows;
 }
+
+module.exports = { query };
