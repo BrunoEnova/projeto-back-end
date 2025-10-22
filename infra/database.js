@@ -6,7 +6,7 @@ async function query(sql, args = []) {
     port: process.env.DB_PORT,
     user: process.env.DB_USER,
     database: process.env.DB_NAME,
-    password: process.env.DB_PASS,
+    password: process.env.DB_PASSWORD,
   });
   await client.connect();
 

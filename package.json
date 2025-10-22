@@ -12,7 +12,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "service:up": "docker compose up -d",
-    "service:down": "docker compose down"
+    "service:down": "docker compose down",
+    "migrate:create": "node-pg-migrate -m infra/migrations create"
   },
   "author": "",
   "license": "ISC",
@@ -22,6 +23,8 @@
     "prettier": "^3.5.3"
   },
   "dependencies": {
+    "dotenv": "^17.2.3",
+    "node-pg-migrate": "^8.0.3",
     "pg": "^8.16.3"
   }
 }
