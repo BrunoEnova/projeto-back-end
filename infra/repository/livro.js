@@ -1,3 +1,10 @@
 const { query } = require("../database");
 
-function consultarTodos() {}
+function consultarTodos()  {
+  const sql = `SELECT * FROM livro`;
+
+  const resultados = await query(sql)
+
+  return resultados;
+
+}
