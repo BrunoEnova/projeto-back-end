@@ -14,7 +14,7 @@
     "service:up": "docker compose up -d",
     "service:down": "docker compose down",
     "migrate:create": "node-pg-migrate -m infra/migrations create",
-    "migrea:up": "node-pg-migrate -m infra/migrations --envPath .env up"
+    "migrate:up": "node-pg-migrate -m infra/migrations --envPath .env up"
   },
   "author": "",
   "license": "ISC",

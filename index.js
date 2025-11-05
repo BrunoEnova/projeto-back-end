@@ -1,11 +1,14 @@
 require("dotenv").config();
-console.log(process.env);
-const { query } = require("./infra/database");
+const livroRepository = require("./infra/repository/livro");
+const http = require("node:http");
 
-query("SELECT 1 + 1;")
-  .then(function (value) {
-    console.log(value);
-  })
-  .catch(function (err) {
-    console.log("Deu ruim", err);
-  });
+const server = http.createServer(function (req, res) {
+  //res.writeHead(200, {"content-type": "text/plain"})
+  res.end("Ok bem vindo");
+});
+
+const port = process.env.PORT || 3000;
+
+server.listen(port, function () {
+  console.log("Inicializando servidor HTTP na porta " + port);
+});
