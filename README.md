@@ -1,8 +1,16 @@
 # Projeto BACK-END Aulas
 
+- [Resumo](doc/resumo.md)
 - [Aula 1](doc/aula-1.md)
 - [Aula 2](doc/aula-2.md)
 - [Aula 4](doc/aula-4.md)
 - [Aula 5](doc/aula-5.md)
 - [Aula 6](doc/aula-6.md)
 - [Aula 7](doc/aula-7.md)
+- [Aula 8](doc/aula-8.md)
+- [Aula 9](doc/aula-9.md)
+- [Aula 10](doc/aula-10.md)
+- [Aula 11](doc/aula-11.md)
+- [Aula 12](doc/aula-12.md)
+- [Aula 13](doc/aula-13.md)
+- [Aula 14](doc/aula-14.md)
